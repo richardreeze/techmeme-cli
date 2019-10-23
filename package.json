@@ -1,0 +1,38 @@
+{
+  "name": "techmeme-cli",
+  "description": "A Techmeme command line interface (CLI).",
+  "version": "0.0.1",
+  "author": "Richard Reis",
+  "bin": {
+    "techmeme": "./bin/run"
+  },
+  "bugs": "https://github.com/richardreeze/techmeme-cli/issues",
+  "dependencies": {
+    "@oclif/command": "^1.5.19",
+    "@oclif/config": "^1.13.3",
+    "@oclif/plugin-help": "^2.2.1",
+    "ora": "^4.0.2",
+    "rss-parser": "^3.7.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/richardreeze/techmeme-cli",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "techmeme"
+  },
+  "repository": "richardreeze/techmeme-cli",
+  "scripts": {
+    "test": "echo NO TESTS"
+  }
+}
